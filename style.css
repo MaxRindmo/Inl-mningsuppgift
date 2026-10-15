@@ -1,0 +1,47 @@
+body{
+    background-color: beige;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+nav{
+    margin: 1.5rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main p{
+    font-size: 1.2rem;
+    max-width: 60%;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px){
+    main p{
+        font-size: 1rem;
+        max-width: 90%;
+    }
+}
