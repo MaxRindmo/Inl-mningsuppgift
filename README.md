@@ -1,5 +1,3 @@
-Test
-
 
 #	[Projektets	namn]
     Matplaneraren
